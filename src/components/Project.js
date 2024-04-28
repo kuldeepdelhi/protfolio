@@ -65,8 +65,8 @@ const Project = () => {
 	return (
         <section className="projects" id="projects">
             <div className="container">
-                <h3>PROJECTS</h3>
-                <h5>Each project is a unique piece of development</h5>
+			<h3 style={{ color: '#FF5733' }}>PROJECTS</h3>
+    <h5 style={{ color: '#6A1B9A' }}>Each project is a unique piece of development</h5>
 
                 <div className="project-content">
                     {data.reverse().map((item) => {
