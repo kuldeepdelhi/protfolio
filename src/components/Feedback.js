@@ -11,7 +11,7 @@ export function Feedback() {
 	return (
 		<div className="feedback">
 			<form
-				action="https://formspree.io/f/xwkdjpok"
+				action=""
 				method="POST"
 				onSubmit={(e) => {}}
 			>

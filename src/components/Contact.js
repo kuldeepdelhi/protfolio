@@ -21,7 +21,7 @@ const Contact = () => {
                 </span>
                 <div className="contact__info">
                   <h5>Phone</h5>
-                  9971268698
+                  7000376934
                 </div>{" "}
               </a>
             </div>
@@ -35,13 +35,13 @@ const Contact = () => {
                 </span>
                 <div className="contact__info">
                   <h5>Mail</h5>
-                  pravesh.meena2892@gmail.com
+                  kuldeep.meena.delhi@gmail.com
                 </div>
               </a>
             </div>
 
             <div className="contact__icon-box">
-              <a href="https://drive.google.com/file/d/1HAp0r-3vLxHk7nAyDkc0jK3LYyqetP_m/view?usp=sharing" download target="_blank">
+              <a href="https://drive.google.com/file/d/1mbWzvn7UXU0vQd9wJ5BhPuqw4GOV-PjV/view?usp=sharing" download target="_blank">
                 <span>
                   <i className="fa-solid fa-file"></i>
                 </span>

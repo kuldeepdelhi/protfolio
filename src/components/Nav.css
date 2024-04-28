@@ -1,0 +1,73 @@
+/* Add this CSS to your existing stylesheet */
+
+.nav__bar {
+    background-color: #231f20;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .menu-icon {
+    display: none; /* Hide the menu icon by default */
+    cursor: pointer;
+  }
+  
+  .initial {
+    margin: 0;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+  }
+  
+  .nav-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-list a:hover {
+    color: #ccc;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block; /* Show the menu icon on smaller screens */
+    }
+  
+    .nav-list {
+      display: none; /* Hide the nav list by default on smaller screens */
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #231f20;
+      padding: 10px 0;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav-list.active {
+      display: flex; /* Show the nav list when active */
+    }
+  
+    .nav-list li {
+      margin: 10px 0;
+    }
+  }
+  

@@ -7,7 +7,7 @@ const Footer = () => {
             aria-label="linkedin"
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/pravesh-meena-042b5210a/"
+            href="https://www.linkedin.com/in/kuldeep-meena-65508083/"
           >
             <i className="fa-brands fa-linkedin"></i>
           </a>
@@ -15,14 +15,14 @@ const Footer = () => {
             aria-label="github"
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/pravesh2892"
+            href="https://github.com/kuldeepdelhi"
           >
             <i className="fa-brands fa-github"></i>
           </a>
         </div>
         <div className="resume">
           {" "}
-          <a href="https://drive.google.com/file/d/1HAp0r-3vLxHk7nAyDkc0jK3LYyqetP_m/view?usp=sharing" download="">
+          <a href="https://drive.google.com/file/d/1mbWzvn7UXU0vQd9wJ5BhPuqw4GOV-PjV/view?usp=sharing" download="">
             <span>
               <i className="fa-solid fa-file"></i>
             </span>
